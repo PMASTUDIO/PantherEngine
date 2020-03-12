@@ -1,0 +1,39 @@
+﻿  IGame.cpp
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49,34): warning C4251:  'BookEngine::ScreenList::m_screens': class 'std::vector<BookEngine::IScreen *,std::allocator<_Ty>>' precisa ter dll-interface para ser usado por clientes de class 'BookEngine::ScreenList'
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49,34): warning C4251:         with
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49,34): warning C4251:         [
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49,34): warning C4251:             _Ty=BookEngine::IScreen *
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49,34): warning C4251:         ]
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49): message :  consulte a declaração de 'std::vector<BookEngine::IScreen *,std::allocator<_Ty>>'
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49): message :         with
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49): message :         [
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49): message :             _Ty=BookEngine::IScreen *
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49): message :         ]
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(64,53): warning C4251:  'BookEngine::IGame::m_screenList': class 'std::unique_ptr<BookEngine::ScreenList,std::default_delete<_Ty>>' precisa ter dll-interface para ser usado por clientes de class 'BookEngine::IGame'
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(64,53): warning C4251:         with
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(64,53): warning C4251:         [
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(64,53): warning C4251:             _Ty=BookEngine::ScreenList
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(64,53): warning C4251:         ]
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(64): message :  consulte a declaração de 'std::unique_ptr<BookEngine::ScreenList,std::default_delete<_Ty>>'
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(64): message :         with
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(64): message :         [
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(64): message :             _Ty=BookEngine::ScreenList
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(64): message :         ]
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(66,18): warning C4251:  'BookEngine::IGame::m_window': class 'BookEngine::Window' precisa ter dll-interface para ser usado por clientes de class 'BookEngine::IGame'
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\Window.h(36): message :  consulte a declaração de 'BookEngine::Window'
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\IGame.h(67,30): warning C4251:  'BookEngine::IGame::m_inputManager': class 'BookEngine::InputManager' precisa ter dll-interface para ser usado por clientes de class 'BookEngine::IGame'
+  ScreenList.cpp
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\InputManager.h(31): message :  consulte a declaração de 'BookEngine::InputManager'
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49,34): warning C4251:  'BookEngine::ScreenList::m_screens': class 'std::vector<BookEngine::IScreen *,std::allocator<_Ty>>' precisa ter dll-interface para ser usado por clientes de class 'BookEngine::ScreenList'
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49,34): warning C4251:         with
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49,34): warning C4251:         [
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49,34): warning C4251:             _Ty=BookEngine::IScreen *
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49,34): warning C4251:         ]
+  Gerando Código...
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49): message :  consulte a declaração de 'std::vector<BookEngine::IScreen *,std::allocator<_Ty>>'
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49): message :         with
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49): message :         [
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49): message :             _Ty=BookEngine::IScreen *
+F:\Game Engine Dev with C++\PantherEngine\PantherEngine\src\Engine\ScreenList.h(49): message :         ]
+     Criando biblioteca F:\Game Engine Dev with C++\PantherEngine\bin\Debug-Win32\PantherEngine\PantherEngine.lib e objeto F:\Game Engine Dev with C++\PantherEngine\bin\Debug-Win32\PantherEngine\PantherEngine.exp
+  PantherEngine.vcxproj -> F:\Game Engine Dev with C++\PantherEngine\bin\Debug-Win32\PantherEngine\PantherEngine.dll
