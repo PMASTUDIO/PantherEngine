@@ -86,6 +86,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\Core.h" />
+    <ClInclude Include="src\Engine\AudioManager.h" />
     <ClInclude Include="src\Engine\BookEngine.h" />
     <ClInclude Include="src\Engine\Exception.h" />
     <ClInclude Include="src\Engine\IGame.h" />
@@ -98,6 +99,7 @@
     <ClInclude Include="src\Panther.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Engine\AudioManager.cpp" />
     <ClCompile Include="src\Engine\BookEngine.cpp" />
     <ClCompile Include="src\Engine\IGame.cpp" />
     <ClCompile Include="src\Engine\InputManager.cpp" />
